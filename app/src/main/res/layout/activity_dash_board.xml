@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.dashBoard.DashBoardActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="4dp"
+        android:outlineProvider="bounds"
+        android:padding="20dp"
+        android:layout_marginTop="-2dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            android:background="#00737f">
+
+            <!-- content -->
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginBottom="50dp"-->
+        <!--android:elevation="4dp"-->
+        <!--android:outlineProvider="bounds"-->
+        <!--android:paddingTop="2dp"-->
+        <!--android:layout_marginTop="-2dp">-->
+
+        <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="#00737f">-->
+
+            <!--&lt;!&ndash; content &ndash;&gt;-->
+
+        <!--</FrameLayout>-->
+
+    <!--</FrameLayout>-->
+
+</android.support.constraint.ConstraintLayout>
